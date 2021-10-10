@@ -1,0 +1,23 @@
+.bold{
+    font-weight: bold !important;
+    
+
+}
+
+.noListItem{
+    list-style: none;
+}
+.project{
+    display: flex;
+}
+
+.project ul{
+    flex: 8;
+
+}
+.project img{
+    flex: 4;
+    width: 400px;
+    object-fit: contain;
+    margin-top: 0;
+}

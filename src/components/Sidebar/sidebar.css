@@ -1,0 +1,95 @@
+.sidebar{
+    flex: 3;
+    background-color: #2297f4;
+    width: 100%;
+    justify-content: center;
+    border-left:15px solid #1f88db ;
+    font-family: 'Roboto', sans-serif;
+}
+.imageContainer{
+    background-color:inherit;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.imageContainer img{
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+  
+}
+.sidebar h2{
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 50px 0  ;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.list{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 0;
+    
+   
+}
+.list li{
+    background-color: inherit;
+    height: 40PX;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: capitalize;
+   
+}
+
+.list a{
+    text-decoration: none;
+    color: #fff;
+    
+ 
+}
+
+.sidebar li:hover {
+    background-color : #1f88db;
+}
+
+@media screen and (max-width: 768px){
+    .sidebar{
+        flex: 12;
+        width: 100%;
+        background-color: inherit;
+        background-image: url("../../image/shuttle2.jpg");
+        background-repeat:no-repeat;
+        border-left:none;
+        background-size: cover;
+      
+        
+       
+        
+    }
+    .sidebar h2{
+        color: black;
+    }
+    .list{
+        display: none;
+    }
+    .imageContainer{
+        background-color:inherit;
+        display:block;
+        padding-left: 35%;
+        width: 100%;
+        
+        
+        
+    }
+    .imageContainer img{
+      width: 50%;
+        object-fit: contain;
+        border-radius: 50%;
+       
+       }
+        
+
+}
