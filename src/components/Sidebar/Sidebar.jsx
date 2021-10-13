@@ -12,7 +12,7 @@ export default function Sidebar({info }) {
                 <img src={image} alt="" />
             </div>
            
-            <h2>Amirmohammad neyzan hosseini</h2>
+            <h2>Amirmohammad </h2>
             <ul className="list">
                 {info.map((item)=>{
                     return <li key={item.id}><a href={`#${item.id}`}>{item.title}</a></li>
