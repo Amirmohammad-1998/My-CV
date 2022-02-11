@@ -21,3 +21,17 @@
     object-fit: contain;
     margin-top: 0;
 }
+
+.table{
+    
+    width: 100%;
+    text-align: center;
+    
+
+}
+.table th{
+    text-align: left;
+    font-weight:bold;
+    
+    
+}

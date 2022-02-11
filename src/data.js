@@ -1,3 +1,4 @@
+import { Table } from "@mui/material";
 import "./data.css";
 
 
@@ -13,23 +14,44 @@ const info =[
     {
     title : "Education ",
     id : "Education",
-    desc:   <p>
-        <p>Sep 2021 – Now &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Masters of  Aerospace Engineering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sharif University of Technology</p><br/>
+    desc: 
+    
+        <table className="table">
+            <tr>
+                <th>M.Sc.</th>
+            </tr>
+            <tr>
+                <td>Sharif University of Technology, Iran</td>
+                <td>Aerospace Engineering</td>
+                <td>2021 – Now</td>
+                
+            </tr>
+            <tr>
+                <th>B.Sc.</th>
+            </tr>
+            <tr>
+                <td>K. N. Toosi University of Technology, Iran</td>
+                <td>Aerospace Engineering</td>
+                <td>2017 – 2021</td>
+                <td>Total GPA : 3.83/4</td>
+            </tr>
 
-            <p> Sep 2017 – Jun 2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Bachelor of Aerospace Engineering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;K. N. Toosi   University of   Technology </p>
-            <p>Grade achieved:	17.73/20 </p>
-    </p>                                                                              
+            <tr>
+                <th>High school</th>
+            </tr>
+            <tr>
+                <td>Nokhbegan High school,Tehran,Iran</td>
+                <td>Mathematics and Physics</td>
+                <td>2013 – 2017</td>
+                <td>Total GPA : 4/4</td>
+            </tr>
+
+
+        </table>  
+                                                                                 
 
 },
-{
-    title : "Certified Courses",
-    id : "Certified Courses",
-    desc:<p>
-        <p>July 2019 – Sep 2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Web Design (HTML5,CSS3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tehran Institute of Technology </p>               
-        <p>Grade achieved:       100/100</p>
-            
-    </p>
-},
+
 {
     title : "Achievements",
     id : "Achievements",
@@ -40,6 +62,26 @@ const info =[
             <li>Top student in web design course (ITD Canada certification)</li>
 
         </ul>
+},
+{
+    title : "Research Interests",
+    id : "Research Interests",
+    desc:"",
+},
+{
+    title : "Certified Courses",
+    id : "Certified Courses",
+    desc:
+    <table className="table">
+        
+            <tr>
+                <td>Tehran Institude of Technology, Iran</td>
+                <td>Web Design (HTML5,CSS3)</td>
+                <td>July 2019 – Sep 2019</td>
+                <td>Total GPA : 100/100</td>
+                
+            </tr>
+    </table>
 },
 {
     title : "Selected Courses",
