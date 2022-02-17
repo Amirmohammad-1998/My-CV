@@ -74,7 +74,9 @@
     }
     .list{
         display: none;
+        
     }
+
     .imageContainer{
         background-color:inherit;
         display:block;

@@ -1,6 +1,7 @@
 .bold{
     font-weight: bold !important;
     
+    
 
 }
 
@@ -31,7 +32,13 @@
 }
 .table th{
     text-align: left;
-    font-weight:bold;
+    font-weight:bold !important;
+  
     
     
 }
+.table td{
+    font-weight: normal;
+    text-align: center;
+}
+

@@ -11,9 +11,9 @@ export default function Cards({info}) {
                 return(
                     <Card className="card" >
                         <Typography variant="h4"  className="title" id={card.id}>{card.title}</Typography>
-                        <Typography className="desc" >
+                        <p className="desc" >
                            {card.desc}
-                        </Typography>
+                        </p>
             </Card>
                 )
             })}
